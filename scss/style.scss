@@ -1,0 +1,257 @@
+    * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+     :focus,
+     :active {
+        outline: none;
+    }
+    
+    a:focus,
+    a:active {
+        outline: none;
+    }
+    
+    nav,
+    footer,
+    header,
+    aside {
+        display: block;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        font-size: 100%;
+        line-height: 1;
+        font-size: 14px;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+    
+    input,
+    button,
+    textarea {
+        font-family: inherit;
+    }
+    
+    input::-ms-clear {
+        display: none;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+    
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+    
+    a,
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    ul li {
+        list-style: none;
+    }
+    
+    img {
+        vertical-align: top;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: inherit;
+        font-weight: 400;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-around;
+        .logo {
+            display: flex;
+            gap: 10%;
+            .logo__img {}
+            .logo__text {}
+        }
+        .phone {
+            color: #000;
+            font-family: Montserrat;
+            font-size: 14pt;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .menu {
+            display: flex;
+            gap: 10%;
+            padding: 1%;
+            .menu__link {
+                color: #000;
+                font-family: Montserrat;
+                font-size: 10pt;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    
+    .main {
+        .main__form {
+            background-image: url(../img/Background_1.png);
+            .__form-box {
+                padding: 234px 230px 234px 851px;
+                .__form-title {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 115%;
+                    letter-spacing: -1.44px;
+                    text-transform: uppercase;
+                }
+                .__form-text {
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-bottom: 50px;
+                    padding-top: 25px;
+                }
+                .__form-button {
+                    padding-left: 139px;
+                    .-button-input {
+                        border-radius: 100px;
+                        background: linear-gradient(180deg, #DF291B 0%, #E63B1E 0.01%, #F25822 100%);
+                        padding: 15px 180px;
+                        .-input-text {
+                            color: #FFF;
+                            text-align: center;
+                            font-family: Montserrat;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+        .main__top {
+            .__top-header {
+                .-header-title {}
+                .-header-text {}
+            }
+            .__top-services {
+                .-services-list {
+                    .-list-container {
+                        .-container-box {
+                            .-box-img {}
+                            .-box-title {}
+                            .-box-button {
+                                .-button-text {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main__center {
+            .__center-company {
+                .-company-title {}
+                .-company-text {}
+            }
+            .__center-container {
+                .-container-box {
+                    .-box-logo {}
+                    .-box-title {}
+                    .-box-text {}
+                }
+            }
+        }
+        .main__bot {
+            background-image: url(../img/Background_2.png);
+            .__bot-info {
+                .-info-title {}
+                .-info-text {}
+            }
+            .__bot-container {
+                .__container-panel {
+                    .-panel-name {
+                        .-name-form {}
+                        .-name-input {}
+                    }
+                    .-panel-city {
+                        .-city-form {}
+                        .-city-input {}
+                    }
+                    .-panel-phone {
+                        .-phone-form {}
+                        .-phone-input {}
+                    }
+                    .-panel-services {
+                        .-services-form {}
+                        .-services-select {
+                            .-select-value {}
+                        }
+                        .-form-agreement {
+                            .-agreement-input {
+                                .-input-container {
+                                    .-container-text {}
+                                }
+                            }
+                        }
+                        .-form-contain {
+                            .-contain-button {
+                                .-button-text {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .footer {
+        .footer__info {
+            .__info-text {}
+        }
+        .footer__center {
+            .__center-logo {}
+            .__center-year {}
+            .__center-info {}
+        }
+        .footer__contact {
+            .__contact-phone {}
+            .__contact-mail {}
+        }
+    }

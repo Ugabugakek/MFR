@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedFarmRentgen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/MFR-logo 1.svg" alt="logo" class="logo__img">
+            <p class="logo__text">МедФармРентген</p>
+        </div>
+        <div class="phone">+7(000) 000 00 00</div>
+        <div class="menu">
+            <a href="#main" class="menu__link">Главная</a>
+            <a href="#services" class="menu__link">Услуги</a>
+            <a href="#company" class="menu__link">О Компании</a>
+            <a href="#contacts" class="menu__link">Контакты</a>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <div class="main__form">
+            <div class="__form-box">
+                <h1 class="__form-title">ЛИЦЕНЗИРОВАНИЕ<br> МЕДИЦИНСКОЙ ДЕЯТЕЛЬНОСТИ</h1>
+                <p class="__form-text">Помощь в получении медицинских лицензий в Екатеринбурге и Свердловской области</p>
+                <div class="__form-button">
+                    <button class="-button-input">
+                        <h2 class="-input-text">Подать заявку</h2>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="main__top">
+            <div class="__top-header">
+                <h2 class="-header-title">Виды услуг</h2>
+                <p class="-header-text">По любой услуге Вы можете получить бесплатную консультацию</p>
+            </div>
+            <div id="services" class="__top-services">
+                <ul class="-services-list">
+                    <li class="-list-container">
+                        <div class="-container-box">
+                            <img src="img/hands.png" alt="" class="-box-img">
+                            <h2 class="-box-title">Получение санитарно- эпидемологического заключения</h2>
+                            <button class="-box-button"><p class="-button-text">ПОДРОБНЕЕ</p></button>
+                        </div>
+                    </li>
+                    <li class="-list-container">
+                        <div class="-container-box">
+                            <img src="img/docs.png" alt="" class="-box-img">
+                            <h2 class="-box-title">Регистрация и внесение сведений в ЕГИСЗ</h2>
+                            <button class="-box-button"><p class="-button-text">ПОДРОБНЕЕ</p></button>
+                        </div>
+                    </li>
+                    <li class="-list-container">
+                        <div class="-container-box">
+                            <img src="img/equipment.png" alt="" class="-box-img">
+                            <h2 class="-box-title">Аренда медицинского оборудования
+                            </h2>
+                            <button class="-box-button"><p class="-button-text">ПОДРОБНЕЕ</p></button>
+                        </div>
+                    </li>
+                    <li class="-list-container">
+                        <div class="-container-box">
+                            <img src="img/micro.png" alt="" class="-box-img">
+                            <h2 class="-box-title">Получение лицензий на различные виды деятельности</h2>
+                            <button class="-box-button"><p class="-button-text">ПОДРОБНЕЕ</p></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main__center">
+            <div id="company" class="__center-company">
+                <h2 class="-company-title">О компании</h2>
+                <p class="-company-text">
+                    Компания образовалась после объединения независимых специалистов в области<br> лицензирования, организации и управления медицинскими организациями с<br> суммарным опытом более 35 лет.<br> За время работы было запущено свыше 250 обьектов
+                    медицинской, фармацевтической,<br> ветиринарной и других направлений деятельности.
+                </p>
+            </div>
+            <div class="__center-container">
+                <div class="-container-box">
+                    <img src="img/номер1 2.svg" alt="" class="-box-logo">
+                    <h2 class="-box-title">Лучшие цены<br> и качество</h2>
+                    <p class="-box-text">Мы предлагаем лучшее<br> соотношение цены и качества</p>
+                </div>
+                <div class="-container-box">
+                    <img src="img/Безымянный-1 1.svg" alt="" class="-box-logo">
+                    <h2 class="-box-title">Опытные<br> профессионалы
+                    </h2>
+                    <p class="-box-text">В нашей команде работают грамотные<br> и компетентные специалисты</p>
+                </div>
+                <div class="-container-box">
+                    <img src="img/руки 1.svg" alt="" class="-box-logo">
+                    <h2 class="-box-title">Надежная<br> компания
+                    </h2>
+                    <p class="-box-text">Ежегодно для наших клиентов мы<br> получаем порядка N лицензий</p>
+                </div>
+            </div>
+        </div>
+        <div class="main__bot">
+            <div class="__bot-info">
+                <h2 class="-info-title">
+                    Оставьте заявку и мы Вам перезвоним!
+                </h2>
+                <p class="-info-text">Заполните форму и получите бесплатную<br> консультацию от наших специалистов<br> по телефону!</p>
+            </div>
+            <div class="__bot-container">
+                <form action="form.php" method="post" class="__container-panel">
+                    <div class="-panel-name">
+                        <label class="-name-form" for="fullName"></label>
+                        <input class="-name-input" value="ФИО*" type="text" name="fullName" id="fullName">
+                    </div>
+                    <div class="-panel-city">
+                        <label class="-city-form" for="city"></label>
+                        <input class="-city-input" value="Ваш город*" type="text" name="city" id="city">
+                    </div>
+                    <div class="-panel-phone">
+                        <label class="-phone-form" for="phone"></label>
+                        <input class="-phone-input" value="Номер телефона*" type="text" name="phone" id="phone">
+                    </div>
+                    <div class="-panel-services">
+                        <label class="-services-form" for="services"></label>
+                        <select class="-services-select" value="Вид услуги*" id="services" name="services">
+                            <option class="-select-value" value="Получение санитарно - эпидемологического заключения">Получение санитарно - эпидемологического заключения</option>
+                            <option class="-select-value" value="Регистрация
+                            и внесение сведений
+                            в ЕГИСЗ">Регистрация
+                            и внесение сведений
+                            в ЕГИСЗ</option>
+                            <option class="-select-value" value="Аренда медицинского
+                            оборудования">Аренда медицинского
+                            оборудования</option>
+                            <option class="-select-value" value="Получение лицензий на различные виды деятельности">Получение лицензий на различные виды деятельности</option>
+                        </select>
+                    </div>
+                    <div class="-form-agreement">
+                        <div class="-agreement-input">
+                            <div class="-input-container">
+                                <input class="-container-text" type="checkbox" value="Согласие на обработку персональных данных" name="check">Согласие на обработку персональных данных
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-form-contain">
+                        <div class="-contain-button">
+                            <button class="-button-text">Отправить</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__info">
+            <h2 class="__info-text">Работаем в Екатеринбурге<br> и Свердловской области</h2>
+        </div>
+        <div class="footer__center">
+            <img src="img/MFR-logo 1.svg" alt="logo" class="__center-logo">
+            <h2 class="__center-year">20?? МедФармРентген</h2>
+            <p class="__center-info">Информация на сайте не является публичной офертой.</p>
+        </div>
+        <div id="contacts" class="footer__contact">
+            <h2 class="__contact-phone">+7 (000) 000 00 00</h2>
+            <h2 class="__contact-mail">mfr@mail.ru</h2>
+        </div>
+    </footer>
+</body>
+
+</html>
