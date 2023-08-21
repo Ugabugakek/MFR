@@ -15,9 +15,14 @@
     <header class="header">
         <div class="logo">
             <img src="img/MFR-logo 1.svg" alt="logo" class="logo__img">
-            <p class="logo__text">МедФармРентген</p>
+            <div class="logo__box">
+                <p class="logo__text">МедФармРентген</p>
+            </div>
+
+            <div class="phone">
+                <p class="phone__number">+7(000) 000-00-00</p>
+            </div>
         </div>
-        <div class="phone">+7(000) 000 00 00</div>
         <div class="menu">
             <a href="#main" class="menu__link">Главная</a>
             <a href="#services" class="menu__link">Услуги</a>
@@ -32,7 +37,7 @@
                 <p class="__form-text">Помощь в получении медицинских лицензий в Екатеринбурге и Свердловской области</p>
                 <div class="__form-button">
                     <button class="-button-input">
-                        <h2 class="-input-text">Подать заявку</h2>
+                        <h2 class="-input-text"><a class="-text-link" href="#form">Подать заявку</a></h2>
                     </button>
                 </div>
             </div>
@@ -48,7 +53,7 @@
                         <div class="-container-box">
                             <img src="img/hands.png" alt="" class="-box-img">
                             <h2 class="-box-title">Получение санитарно- эпидемологического заключения</h2>
-                            <button class="-box-button"><p class="-button-text">ПОДРОБНЕЕ</p></button>
+                            <button class="-box-button"><a href="firstPage.html" class="-button-text">ПОДРОБНЕЕ</a></button>
                         </div>
                     </li>
                     <li class="-list-container">
@@ -111,7 +116,7 @@
                 </h2>
                 <p class="-info-text">Заполните форму и получите бесплатную<br> консультацию от наших специалистов<br> по телефону!</p>
             </div>
-            <div class="__bot-container">
+            <div class="__bot-container" id="form">
                 <form action="form.php" method="post" class="__container-panel">
                     <div class="-panel-name">
                         <label class="-name-form" for="fullName"></label>
@@ -162,7 +167,7 @@
             <h2 class="__info-text">Работаем в Екатеринбурге<br> и Свердловской области</h2>
         </div>
         <div class="footer__center">
-            <img src="img/MFR-logo 1.svg" alt="logo" class="__center-logo">
+            <div class="__center-box"><img src="img/MFR-logo 1.svg" alt="logo" class="__center-logo"></div>
             <h2 class="__center-year">20?? МедФармРентген</h2>
             <p class="__center-info">Информация на сайте не является публичной офертой.</p>
         </div>
